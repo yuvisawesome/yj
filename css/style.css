@@ -1,0 +1,187 @@
+/* --------------------------------------------------------ALL OF THE FONTS------------------------------------------------------------------- */
+@font-face {
+  font-family: "KaushanScript";
+  src: url(fonts/KaushanScript-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Allan";
+  src: url(fonts/Allan-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Allan";
+  src: url(fonts/Allan-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url(fonts/Merriweather/Merriweather-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(fonts/Merriweather/Merriweather-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(fonts/Merriweather/Merriweather-Italic.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(fonts/Merriweather/Merriweather-BoldItalic.ttf) format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+/* --------------------------------------------------------ALL OF THE HTML ELEMENTS------------------------------------------------------------------- */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin: 3.125rem auto 0 auto;
+  font-family: KaushanScript, serif;
+  font-size: 5.655rem;
+  color: #22313f;
+
+}
+h2 {
+  font-family: Merriweather, serif;
+  font-size: 5.655rem;
+  color: #22313f;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+h3 {
+  font-family: Merriweather, serif;
+  font-size: 2.5rem;
+  color: #22313f;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.top-container {
+  background-color: #e4f1fe;
+  position: relative;
+  padding: 100px;
+}
+p {
+  font-size: 2rem;
+  color: #34495e;
+}
+
+hr {
+  margin: 5rem auto;
+  border-style: none;
+  border-top: dotted;
+  border-width: 7.5px;
+  width: 6%;
+  color: #22313f;
+  margin-bottom: 7.5rem;
+}
+
+label {
+  font-size: 2rem;
+  color: #34495e;
+  font-family: Merriweather, serif;
+
+}
+input {
+  width: 10rem;
+  height: 2rem;
+
+}
+textarea {
+  font-size: 1rem;
+  color: #34495e;
+  font-family: Merriweather, serif;
+}
+/* --------------------------------------------------------ALL OF THE CLASSES------------------------------------------------------------------- */
+
+.CMbody{
+   margin-top: 0;
+   padding:0;
+   background-color: #e4f1fe;
+
+}
+
+
+.middle-container {
+    background-color: #f9f9f9;
+}
+
+.bottom-container {
+    background-color: #8dc6ff;
+    height: 30rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 17%;
+  top: 40%;
+}
+
+.merriweather {
+  font-family: Merriweather;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 17%;
+  top: 10%;
+}
+
+.shorten {
+  display: inline-block;
+  width: 40%;
+}
+
+.CMtop-container {
+  background-color: #e4f1fe;
+  margin-top: 0px;
+}
+/* --------------------------------------------------------ALL OF THE IDS------------------------------------------------------------------- */
+
+#getintouch {
+  margin-bottom: 1.25rem;
+}
+
+#selfpic {
+  margin: 2rem auto 1.25rem auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.125rem;
+}
+
+#swift {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 3rem;
+  margin-bottom: 2.5rem;
+  border-style: solid;
+  border-color: #34495e;
+}
+
+#html-gif {
+  margin: 3rem;
+}
+#copyright {
+  /*
+  position: absolute;*/
+  margin-bottom: 0px;
+}
+#contactMe {
+  font-size: 3rem;
+}
