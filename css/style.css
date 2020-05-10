@@ -3,6 +3,7 @@
   font-family: "KaushanScript";
   src: url(fonts/KaushanScript-Regular.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "Allan";
   src: url(fonts/Allan-Bold.ttf) format("truetype");
@@ -23,31 +24,47 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Merriweather";
   src: url(fonts/Merriweather/Merriweather-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Merriweather";
   src: url(fonts/Merriweather/Merriweather-Italic.ttf) format("truetype");
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Merriweather";
   src: url(fonts/Merriweather/Merriweather-BoldItalic.ttf) format("truetype");
   font-weight: bold;
   font-style: italic;
 }
+
 /* --------------------------------------------------------ALL OF THE HTML ELEMENTS------------------------------------------------------------------- */
+a {
+
+  color: #0b0080;
+  text-decoration: none;
+  background: none;
+}
+
+a:hover {
+  color: #0645ad;
+  background-color: transparant;
+}
 
 body {
   margin: 0;
   text-align: center;
   font-size: 16px;
   background-color: #f9f9f9;
+  line-height: 2;
 }
 
 h1 {
@@ -55,8 +72,8 @@ h1 {
   font-family: KaushanScript, serif;
   font-size: 5.655rem;
   color: #22313f;
-
 }
+
 h2 {
   font-family: Merriweather, serif;
   font-size: 5.655rem;
@@ -64,6 +81,7 @@ h2 {
   font-weight: bold;
   margin-bottom: 3rem;
 }
+
 h3 {
   font-family: Merriweather, serif;
   font-size: 2.5rem;
@@ -71,11 +89,13 @@ h3 {
   font-weight: bold;
   margin-bottom: 2rem;
 }
+
 .top-container {
   background-color: #e4f1fe;
   position: relative;
   padding: 100px;
 }
+
 p {
   font-size: 2rem;
   color: #34495e;
@@ -95,35 +115,32 @@ label {
   font-size: 2rem;
   color: #34495e;
   font-family: Merriweather, serif;
-
 }
+
 input {
   width: 10rem;
   height: 2rem;
-
 }
+
 textarea {
   font-size: 1rem;
   color: #34495e;
   font-family: Merriweather, serif;
 }
+
 /* --------------------------------------------------------ALL OF THE CLASSES------------------------------------------------------------------- */
-
-.CMbody{
-   margin-top: 0;
-   padding:0;
-   background-color: #e4f1fe;
-
+.CMbody {
+  margin-top: 0;
+  padding: 0;
+  background-color: #e4f1fe;
 }
 
-
 .middle-container {
-    background-color: #f9f9f9;
+  background-color: #f9f9ff;
 }
 
 .bottom-container {
-    background-color: #8dc6ff;
-    height: 30rem;
+  background-color: #8dc6ff;
 }
 
 .bottom-cloud {
@@ -144,14 +161,109 @@ textarea {
 
 .shorten {
   display: inline-block;
-  width: 40%;
+  width: 50%;
 }
 
 .CMtop-container {
   background-color: #e4f1fe;
   margin-top: 0px;
 }
+
+.bottom-margin {
+  margin-bottom: 4rem;
+}
+
+.submitButton {
+   
+   border-radius: 45px;
+   color: #22313F;
+   font-family: Open Sans;
+   font-size: 43px;
+   font-weight: 200;
+   padding: 45px;
+   background-color: #E4F1FE;
+   box-shadow: -2px 1px 23px 2px #22313F;
+   -webkit-box-shadow: -2px 1px 23px 2px #22313F;
+   -moz-box-shadow: -2px 1px 23px 2px #22313F;
+   border: solid #22313F 3px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+-webkit-border-radius: 45px;
+   -moz-border-radius: 45px;
+}
+
+.submitButton:hover {
+   border: solid #337FED 3px;
+   background: #8DC6FF;
+   background-image: -webkit-linear-gradient(top, #8DC6FF, #E4F1FE);
+   background-image: -moz-linear-gradient(top, #8DC6FF, #E4F1FE);
+   background-image: -ms-linear-gradient(top, #8DC6FF, #E4F1FE);
+   background-image: -o-linear-gradient(top, #8DC6FF, #E4F1FE);
+   background-image: linear-gradient(to bottom, #8DC6FF, #E4F1FE);
+   -webkit-border-radius: 49px;
+   -moz-border-radius: 49px;
+   border-radius: 49px;
+   text-decoration: none;
+}
+
+.button {
+  border-radius: 45px;
+  color: #22313F;
+  font-family: Merriweather;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 2rem;
+  padding-top: 0.9rem;
+  background-color: #E4F1FE;
+  box-shadow: -2px 1px 23px 2px #22313F;
+  -webkit-box-shadow: -2px 1px 23px 2px #22313F;
+  -moz-box-shadow: -2px 1px 23px 2px #22313F;
+  border: solid #22313F 3px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  height: 1.5rem;
+
+}
+
+.button:hover {
+  border: solid #337FED 3px;
+  background: #8DC6FF;
+  background-image: -webkit-linear-gradient(top, #8DC6FF, #E4F1FE);
+  background-image: -moz-linear-gradient(top, #8DC6FF, #E4F1FE);
+  background-image: -ms-linear-gradient(top, #8DC6FF, #E4F1FE);
+  background-image: -o-linear-gradient(top, #8DC6FF, #E4F1FE);
+  background-image: linear-gradient(to bottom, #8DC6FF, #E4F1FE);
+  -webkit-border-radius: 49px;
+  -moz-border-radius: 49px;
+  border-radius: 49px;
+  text-decoration: none;
+}
+
 /* --------------------------------------------------------ALL OF THE IDS------------------------------------------------------------------- */
+#app-skill {
+  width: 50%;
+  margin: 6.25rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+#web-skill {
+  width: 50%;
+  margin: 6.25rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+#python-skill {
+  width: 50%;
+  margin: 6.25rem auto;
+  text-align: left;
+  line-height: 2;
+}
 
 #getintouch {
   margin-bottom: 1.25rem;
@@ -165,23 +277,53 @@ textarea {
 }
 
 #swift {
-  max-width: 100%;
+  /*max-width: 100%;*/
+  width: 25%;
   height: auto;
   border-radius: 50%;
   margin: 3rem;
   margin-bottom: 2.5rem;
   border-style: solid;
   border-color: #34495e;
+  float: left;
+  position: relative;
+  top: 3rem;
 }
 
 #html-gif {
   margin: 3rem;
+  width: 25%;
+  float: right;
+  position: relative;
+  top: 6rem;
+}
+
+#python-img {
+  width: 8rem;
+  height: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #22313f;
+  padding: 2rem;
+  float: left;
+  margin: 3rem;
+}
+#mainPythonImg {
+  width: 13.5rem;
+  height: auto;
+  float: none;
+  margin: 3rem auto;
+}
+#sketching-img {
+  width: 13.5rem;
+  height: auto;
 }
 #copyright {
   /*
   position: absolute;*/
   margin-bottom: 0px;
 }
-#contactMe {
-  font-size: 3rem;
+#cube {
+  width: 25rem;
+  height: auto;
 }
