@@ -91,12 +91,6 @@ h3 {
 }
 
 
-.top-container {
-  background-color: #e4f1fe;
-  position: relative;
-  padding: 100px;
-}
-
 p {
   font-size: 2rem;
   color: #34495e;
@@ -136,11 +130,21 @@ textarea {
   background-color: #e4f1fe;
 }
 
+
+/* Containers */
+
+.top-container {
+  background-color: #e4f1fe;
+  position: relative;
+  padding: 100px;
+}
+
 .middle-container {
   background-color: #f9f9ff;
 }
 
 .bottom-container {
+  padding-top: 5.5rem;
   background-color: #8dc6ff;
 }
 
@@ -166,7 +170,7 @@ textarea {
 }
 .shorten2 {
   display: inline-block;
-  width: 60%;
+  width: 70%;
 }
 .CMtop-container {
   background-color: #e4f1fe;
@@ -247,6 +251,38 @@ textarea {
   text-decoration: none;
 }
 
+.yjLogo {
+  height: 3rem;
+  width: auto;
+  border-radius: 10%;
+}
+
+/* BOOTSTRAP MODS */
+.btn-round-lg {
+  border-radius: 22.5px;
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-indicators {
+  filter: invert(1);
+}
+
+.carousel-item {
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  height: 50rem;
+}
+
+.navbar {
+  background-color: trasparant;
+  padding: 2rem 10rem;
+}
+
 /* --------------------------------------------------------ALL OF THE IDS------------------------------------------------------------------- */
 #app-skill {
   width: 50%;
@@ -268,7 +304,7 @@ textarea {
 }
 
 #getintouch {
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.5rem;
 }
 
 #selfpic {
