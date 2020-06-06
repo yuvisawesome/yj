@@ -131,6 +131,11 @@ textarea {
 }
 
 
+.skillsHeading {
+  background-color: #F4F4FF;
+  margin-bottom: 0;
+}
+
 /* Containers */
 
 .top-container {
